@@ -1,9 +1,8 @@
 import { useGLTF } from "@react-three/drei";
-import { useFrame, useThree } from "@react-three/fiber";
+import { useThree } from "@react-three/fiber";
 import gsap from "gsap";
 import { useLayoutEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useControls } from "leva";
 
 const Loadoff = () => {
   const snail = useGLTF("/loadoff-logo-snail.gltf");
